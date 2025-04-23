@@ -27,7 +27,12 @@ A simple web app to test your typing speed and accuracy, built using **React**, 
 ```bash
 git clone https://github.com/your-username/typing-speed-app.git
 cd typing-speed-app
-Install dependencies
+```
+### Install dependencies
+```bash
 npm install
-. Run the app
+```
+### Run the app
+```bash
 npm run dev
+```
