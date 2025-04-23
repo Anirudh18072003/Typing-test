@@ -1,5 +1,7 @@
 # 📝 Typing Speed App
 
+### live-preview - https://typing-test-dhnw.vercel.app/
+
 A simple web app to test your typing speed and accuracy, built using **React**, **TypeScript**, **Vite**, and **Tailwind CSS**.
 
 ---
@@ -28,11 +30,15 @@ A simple web app to test your typing speed and accuracy, built using **React**, 
 git clone https://github.com/your-username/typing-speed-app.git
 cd typing-speed-app
 ```
+
 ### Install dependencies
+
 ```bash
 npm install
 ```
+
 ### Run the app
+
 ```bash
 npm run dev
 ```
