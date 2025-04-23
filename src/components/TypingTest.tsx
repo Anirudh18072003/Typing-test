@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useRef } from "react";
 
 const SAMPLE_TEXT = "The quick brown fox jumps over the lazy dog";
 
@@ -7,9 +7,9 @@ const TypingTest: React.FC = () => {
   const [startTime, setStartTime] = useState<number | null>(null);
   const [endTime, setEndTime] = useState<number | null>(null);
   const inputRef = useRef<HTMLInputElement>(null);
-  const [typedText, setTypedText] = useState("");
-  const [wpm, setWpm] = useState(0);
-  const [accuracy, setAccuracy] = useState(100);
+  const [, setTypedText] = useState("");
+  const [, setWpm] = useState(0);
+  const [, setAccuracy] = useState(100);
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     if (!startTime) {
